@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+
+  <script src="https://kit.fontawesome.com/cba63b9818.js" crossorigin="anonymous"></script>
+  <script src="./index.js"></script>
+
+  <title>Frontend Mentor | Ping coming soon page</title>
+
+</head>
+
+<body>
+  <main>
+
+    <img class="logo" src="./images/logo.svg" alt="PING Logo">
+
+    <h1>
+      <span class="lightText">We are launching</span> soon!
+    </h1>
+
+    <div>
+      Subscribe and get notified
+    </div>
+
+    <div class="form">
+      <input class="inputField" type="text" id="emailField" placeholder="Your email address...">
+      <div class="errorContainerMobile">
+        <div class="errorMessage" id="errorMessageMobile"></div>
+      </div>
+      <div class="button" onClick="submitEmail()">Notify Me</div>
+    </div>
+    <div class="errorContainer">
+      <div class="errorMessage" id="errorMessage"></div>
+    </div>
+
+    <img class="illustration" src="./images/illustration-dashboard.png" alt="illustration dashboard">
+
+    <div class="socialLinks">
+      <div class="socialLinkBorder">
+        <i class="fa-brands fa-facebook-f"></i>
+      </div>
+      <div class="socialLinkBorder">
+        <i class="fa-brands fa-twitter"></i>
+      </div>
+      <div class="socialLinkBorder">
+        <i class="fa-brands fa-instagram"></i>
+      </div>
+    </div>
+    <div class="Copyright">
+      &copy; Copyright Ping. All rights reserved.
+    </div>
+
+    <footer class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://bmcdavitt.github.io/homepage/" target="_blank">Bill McDavitt</a>.
+    </footer>
+  </main>
+</body>
+
+</html>

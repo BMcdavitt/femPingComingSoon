@@ -1,0 +1,190 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+}
+
+main {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Libre Franklin', sans-serif;
+  color: hsl(209, 33%, 12%);
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.logo {
+    margin-bottom: 35px;
+    margin-top: 88px;
+}
+
+.lightText {
+  color: hsl(0, 0%, 59%);
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 20px;
+  margin: 25px 0;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.inputField {
+  border: 1px solid #ced6e3;
+  border-radius: 50px;
+  width: 281px;
+  height: 40px;
+  padding: 0 30px;
+}
+
+.inputField:focus {
+  outline: none;
+}
+
+::placeholder {
+  color: #ced6e3;
+}
+
+.button {
+  background-color: hsl(223, 87%, 63%);
+  color: hsl(223, 100%, 88%);
+  border-radius: 50px;
+  width: 281px;
+  
+  text-align: center;
+  font-weight: 700;
+  padding: 14px 30px;
+  cursor: pointer;
+  margin-top: 11px; 
+  transition: transform 1s;
+}
+
+.button:hover {
+    transform: scale(1.025);
+}
+
+.errorContainer {
+  width: 565px;
+  display: none;
+}
+
+.errorContainerMobile {
+  width: 341px;
+  display: block;
+  text-align: center;
+}
+
+.errorMessage {
+  font-size: 12px;
+  color: hsl(354, 100%, 66%);
+  margin: 10px 0 15px;
+}
+
+.illustration {
+  /* width: 642px; */
+  width: 320px;
+  margin: 50px 0;
+}
+
+.socialLinks {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.fa-brands {
+  position: absolute;
+  color: hsl(223, 87%, 63%);
+  top: 8px;
+  left: 8px;
+  font-size: 14px;
+  transition: color 0.25s;
+}
+
+.fa-facebook-f {
+    left: 11px;
+}
+
+.fa-instagram {
+    left: 9px;
+}
+
+
+.socialLinkBorder {
+  border: 1px solid hsl(223, 100%, 88%);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: relative;
+  margin: 0 7px;
+  transition: background-color 1s;
+}
+
+.socialLinkBorder:hover {
+    background-color: hsl(223, 87%, 63%);
+    cursor: pointer;
+}
+
+.socialLinkBorder:hover .fa-brands{
+    color: hsl(223, 100%, 88%);
+}
+
+.Copyright {
+  font-size: 11px;
+  color: hsl(0, 0%, 59%);
+}
+
+
+@media screen and (min-width: 650px) {
+  h1 {
+    font-size: 44px;
+  }
+
+  main {
+    font-size: 20px;
+  }
+
+  .form {
+    flex-direction: row;
+  }
+
+  
+.inputField {
+   width: 360px;
+   height: 55px;
+}
+
+.button {
+  width: 160px;
+  padding: 16px;
+  margin-left: 16px;
+  margin-top: 0px;
+}
+
+.errorContainer {
+  display: block;
+}
+
+.errorContainerMobile {
+  display: none;
+}
+
+.illustration {
+  width: 642px;
+}
+
+}
